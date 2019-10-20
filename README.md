@@ -13,4 +13,4 @@ We do this by determining when the user is tired. Linear regression models from 
 Thus, we implemented ONE method in the given openCV code to detect when the user blinks more than 3 times in 9 seconds to tell that the user is tired, or "drowsy". 
 
 Techincal Explanation:
-A blink is registered when the distance between the user's upper and lower eyelid decreases significantly. When your eye is open, the distance is higher. When it closes, it decreases. Everytime a blink is registered, our count that we created increases. Once this count exceeds 3 per our frame (9 seconds), we warn the user.
+A blink is registered when the distance between the user's upper and lower eyelid decreases significantly. When your eye is open, the distance is higher. When it closes, it decreases. Everytime a blink is registered, our count that we created increases. Once this count exceeds 3 per our frame (9 seconds), we warn the user. Our method is written with the comment header "OUR GROUP'S CODE". The rest of the code is openCV code from pyimagesearch.com
