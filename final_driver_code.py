@@ -107,7 +107,7 @@ while True:
         if count == 0:
            start = int(round(time.time() * 1000))
 
-        #Checks if driver is blinking rapidly signifying drowsiness
+        #Checks if driver is blinking rapidly signifying drowsiness - OUR GROUP'S CODE 
         if count >= 3 * frames:
            delta = (int(round(time.time() * 1000)) - start) / 1000
            if delta <= 9:
