@@ -1,5 +1,5 @@
 # distracted-driver
-Project for a hack event at UMass Amherst
+Project for a hack event at UMass Amherst:
 
 Overview:
 Distracted driving kills around 9 people and injures over 1000 people per day in the US (CDC). How do we prevent drivers from being distracted while driving?
